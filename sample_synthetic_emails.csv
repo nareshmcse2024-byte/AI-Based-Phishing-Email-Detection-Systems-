@@ -1,0 +1,61 @@
+subject,body,sender,urls,label
+Action required: mailbox suspended,Your mailbox will be suspended today. Sign in immediately and verify your password using https://login.example.invalid/verify.,example-sender1@example.invalid,https://login.example.invalid/verify,Likely Phishing
+Urgent invoice payment required,Please pay the attached overdue invoice by wire transfer today or service will be stopped.,example-sender2@example.invalid,,Likely Phishing
+Verify your account now,Confirm your account credentials and one-time code at https://docs.example.invalid/share within 24 hours.,example-sender3@example.invalid,https://docs.example.invalid/share,Likely Phishing
+Unusual sign-in detected,We detected unauthorized activity. Provide your password and authentication code to restore access.,example-sender4@example.invalid,,Likely Phishing
+Refund waiting for you,Submit your bank details and card number at http://short.example.invalid/a1b2 to claim your pending refund.,example-sender5@example.invalid,http://short.example.invalid/a1b2,Likely Phishing
+Final notice: account closure,Your account will be closed unless you log in and update your payment details immediately.,example-sender6@example.invalid,,Likely Phishing
+Payroll update needed today,Send your login credentials and OTP to complete this urgent payroll change.,example-sender7@example.invalid,,Likely Phishing
+Security alert - act now,Your account access expires today. Verify your identity at https://docs.example.invalid/share to avoid deactivation.,example-sender8@example.invalid,https://docs.example.invalid/share,Likely Phishing
+Payment failed - resolve now,Use this payment link https://portal.example.invalid/notice and enter your card number to prevent a penalty.,example-sender9@example.invalid,https://portal.example.invalid/notice,Likely Phishing
+Document shared with you,"Open http://short.example.invalid/a1b2, sign in with your password and security code to view the document.",example-sender10@example.invalid,http://short.example.invalid/a1b2,Likely Phishing
+Please review your account,A recent account change needs review. Visit the company portal using your usual bookmark.,example-sender1@example.invalid,,Suspicious
+Invoice question,Could you confirm whether invoice 1842 is expected? Please check with the finance team.,example-sender2@example.invalid,,Suspicious
+Delivery update,"A delivery update is available at https://docs.example.invalid/share. If you were not expecting it, verify with the carrier.",example-sender3@example.invalid,https://docs.example.invalid/share,Suspicious
+Meeting document,Please review the shared document when convenient: https://portal.example.invalid/notice.,example-sender4@example.invalid,https://portal.example.invalid/notice,Suspicious
+Security notification,We noticed a new sign-in. Check your account through the official app if this was not you.,example-sender5@example.invalid,,Suspicious
+Action requested,Please confirm your details with the sender through a separately verified phone number.,example-sender6@example.invalid,,Suspicious
+Payment reminder,A payment may be due this week. Please verify the invoice using your normal billing portal.,example-sender7@example.invalid,,Suspicious
+Package status,Your package status changed. Check the tracking number through the retailer you used.,example-sender8@example.invalid,,Suspicious
+Account settings update,An account setting was updated. Review it through the known official website.,example-sender9@example.invalid,,Suspicious
+Document review requested,A file is ready for review at http://short.example.invalid/a1b2. Confirm the sender before opening unexpected files.,example-sender10@example.invalid,http://short.example.invalid/a1b2,Suspicious
+Weekly team newsletter,Here are this week's team updates and links to the shared calendar.,example-sender1@example.invalid,,Benign
+Lunch next week?,Would you like to meet for lunch next Tuesday? Let me know what works.,example-sender2@example.invalid,,Benign
+Meeting notes,I uploaded the notes from our planning meeting to the usual shared drive.,example-sender3@example.invalid,,Benign
+Thank you for your help,Thanks for helping with the project. The presentation looks good.,example-sender4@example.invalid,,Benign
+Office hours schedule,Office hours are Tuesday and Thursday from 2 to 4 in room 205.,example-sender5@example.invalid,,Benign
+Project update,The project is on schedule. I will send the draft agenda before Friday.,example-sender6@example.invalid,,Benign
+Book club reminder,Our next book club meeting is on Wednesday. Please bring your suggestions.,example-sender7@example.invalid,,Benign
+Holiday calendar,The updated holiday calendar is available in the staff portal.,example-sender8@example.invalid,,Benign
+Coffee after class,Are you free for coffee after class tomorrow?,example-sender9@example.invalid,,Benign
+Course materials posted,The lecture slides and reading list have been posted to the course page.,example-sender10@example.invalid,,Benign
+Shared voice message,Your voice message is waiting. Sign in now at http://198.51.100.7/voice and provide your password to listen.,demo0@example.invalid,http://198.51.100.7/voice,Likely Phishing
+Cloud storage over quota,Storage access will be removed today. Verify your account and payment card at https://account.example.invalid/storage.,demo1@example.invalid,https://account.example.invalid/storage.,Likely Phishing
+Unpaid toll charge,Pay this small toll fee immediately using your card at http://pay.example.invalid/toll or face a penalty.,demo2@example.invalid,http://pay.example.invalid/toll,Likely Phishing
+Password reset required,Your password expires in one hour. Send the one-time code to complete the reset.,demo3@example.invalid,,Likely Phishing
+Tax refund confirmation,Enter your bank account and date of birth at https://refund.example.invalid to receive your refund.,demo4@example.invalid,https://refund.example.invalid,Likely Phishing
+Executive gift card request,I need gift cards urgently. Buy them now and send the redemption codes in reply.,demo5@example.invalid,,Likely Phishing
+Shared file access blocked,Your shared file is locked. Verify your login at https://files.example.invalid/unlock to restore access.,demo6@example.invalid,https://files.example.invalid/unlock,Likely Phishing
+Benefits account suspended,Your benefits account will be deactivated. Confirm your SSN and password immediately.,demo7@example.invalid,,Likely Phishing
+Failed payroll deposit,Update bank details through http://203.0.113.22/payroll within 24 hours to avoid losing your wages.,demo8@example.invalid,http://203.0.113.22/payroll,Likely Phishing
+Document requires sign-in,Open the secure document now and enter your email password and authentication code.,demo9@example.invalid,,Likely Phishing
+New device sign-in,"A new device accessed your profile. If this was unexpected, open the official app and check recent activity.",demo10@example.invalid,,Suspicious
+Shared file invitation,A colleague shared a file at https://share.example.invalid/item. Confirm the sender before opening.,demo11@example.invalid,https://share.example.invalid/item.,Suspicious
+Unrecognized subscription notice,A subscription renewal is listed. Review charges by navigating to the known provider website yourself.,demo12@example.invalid,,Suspicious
+Confirm delivery preference,A delivery preference needs confirmation. Check the order status in the retailer account you normally use.,demo13@example.invalid,,Suspicious
+Review recent invoice,Please review the attached invoice request and confirm the vendor using your existing finance records.,demo14@example.invalid,,Suspicious
+Benefits information update,The benefits team requests a profile review. Contact HR through the internal directory before responding.,demo15@example.invalid,,Suspicious
+Cloud account alert,There was activity on your cloud account. Use a saved bookmark to review access settings.,demo16@example.invalid,,Suspicious
+Action on shared calendar,A calendar invitation has an unfamiliar link. Verify with the organizer before accepting.,demo17@example.invalid,,Suspicious
+Order confirmation question,An order confirmation refers to an unfamiliar purchase. Verify directly in your known merchant account.,demo18@example.invalid,,Suspicious
+Document signature request,A document requests a signature at https://sign.example.invalid. Check with the named sender first.,demo19@example.invalid,https://sign.example.invalid.,Suspicious
+Library books due,A reminder that two library books are due next Monday. Renew them through the campus library site.,demo20@example.invalid,,Benign
+Study group this afternoon,Our study group meets in the usual room at 4 pm. Bring the chapter notes if you have them.,demo21@example.invalid,,Benign
+Updated class timetable,The class timetable has been updated for next semester. The department office has the printed copy.,demo22@example.invalid,,Benign
+Thanks for the meeting,Thank you for joining the planning call. I will share the meeting notes later this afternoon.,demo23@example.invalid,,Benign
+Recycling collection notice,The building recycling collection will take place Friday morning as usual.,demo24@example.invalid,,Benign
+Team volunteer day,The team volunteer day is scheduled for Saturday. Please let me know if you can attend.,demo25@example.invalid,,Benign
+Research draft feedback,I added comments to the research draft in our usual shared workspace. No action is needed today.,demo26@example.invalid,,Benign
+Room change for lecture,Tomorrow's lecture will be in room 114 instead of room 108. The start time is unchanged.,demo27@example.invalid,,Benign
+Welcome to the course,Welcome to the course. The syllabus and reading schedule are on the learning portal.,demo28@example.invalid,,Benign
+Photo from the event,I uploaded a few photos from the department event to the shared album.,demo29@example.invalid,,Benign

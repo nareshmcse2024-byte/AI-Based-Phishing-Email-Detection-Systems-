@@ -1,0 +1,20 @@
+flowchart TB
+    subgraph ANALYSIS[Local email analysis]
+        UI[Streamlit input] --> VAL[Validation and normalization]
+        VAL --> TEXT[TF-IDF text features]
+        VAL --> URL[Offline URL and sender checks<br/>No network requests]
+        TEXT --> MODEL[Local selected classifier]
+        MODEL --> RESULT[Three-class prediction<br/>Score, warning signals, next step]
+        URL --> RESULT
+    end
+    RESULT --> DB[(SQLite metadata history<br/>No subject, body or raw URLs)]
+    DB --> DASH[Dashboard and sanitized CSV]
+    REVIEW[Human analyst review] --> DB
+    REVIEW -. separate from model training .-> MANUAL[Retraining is manual only]
+    subgraph TRAINING[Explicit local training]
+        CSV[Approved or synthetic labeled CSV] --> DEDUP[Validate and deduplicate]
+        DEDUP --> SPLIT[Train / validation / test split]
+        SPLIT --> COMPARE[Compare LR and Random Forest<br/>Select by validation macro F1]
+        COMPARE --> ART[Selected model + test report]
+    end
+    ART --> MODEL
